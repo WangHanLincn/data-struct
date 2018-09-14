@@ -12,5 +12,6 @@ struct pad_control_info_t
 	double  longitude;		                //0不操作 经度
 	double  latitude;		                //0不操作 纬度
 	byte  follow_past;                            //0不操作 1跟车2超车
-	
+	byte  work_onoff;                             //0故障 1关闭状态 2工作状态
+	byte  path_id;                               //路径编号
 }
